@@ -8,14 +8,16 @@ lerna-debug.log*
 
 # Dependencies & builds
 node_modules/
+client/node_modules/
+server/node_modules/
 dist/
 build/
 dist-ssr/
 
-# Env files
-.env
-*.env.local
-.env.*.local
+# Env files (ignore all .env files everywhere)
+**/.env
+**/.env.local
+**/.env.*.local
 
 # Editor/OS
 .vscode/*
